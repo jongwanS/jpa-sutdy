@@ -27,4 +27,5 @@ public class Member {
 
     @OneToMany(mappedBy = "member")//order 테이블에 있는 member에 의해 매핑된놈이야(읽기전용)
     private List<Order> orders = new ArrayList<>();
+
 }
