@@ -1,4 +1,5 @@
 spring:
+# 별도의 설정없으면 메모리모드로 스프링이 알아서 돌려버림
 #  datasource:
 #    url: jdbc:h2:tcp://localhost/~/jpashop
 #    username: sa

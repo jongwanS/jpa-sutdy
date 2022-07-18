@@ -9,7 +9,6 @@ import javax.persistence.PersistenceContext;
 import java.util.List;
 @RequiredArgsConstructor
 @Repository
-
 public class MemberRepository {
     //@PersistenceContext RequiredArgsConstructor 로 지원해줌
     private final EntityManager em;

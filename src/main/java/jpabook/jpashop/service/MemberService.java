@@ -22,7 +22,7 @@ public class MemberService {
      */
     private final MemberRepository memberRepository;
 
-//    @Autowired //@RequiredArgsConstructor 가 final 찾아서 주입해줌
+//    @Autowired //@RequiredArgsConstructor 가 final repositry를 찾아서 주입해줌
 //    public MemberService(MemberRepository memberRepository){
 //        this.memberRepository = memberRepository;
 //    }
